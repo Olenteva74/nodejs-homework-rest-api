@@ -8,7 +8,8 @@ const register = require('./auth/register');
 const login = require('./auth/login');
 const getCurrent = require('./users/getCurrent');
 const logout = require('./auth/logout');
-const updateSubscriptionUser = require('./users/updateSubscriptionUser')
+const updateSubscriptionUser = require('./users/updateSubscriptionUser');
+const updateAvatar = require('./users/updateAvatar');
 
 module.exports = {
     add,
@@ -21,5 +22,6 @@ module.exports = {
     login,
     getCurrent,
     logout,
-    updateSubscriptionUser
+    updateSubscriptionUser,
+    updateAvatar
 };
