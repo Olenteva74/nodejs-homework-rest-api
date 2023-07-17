@@ -2,7 +2,7 @@ const {Conflict} = require('http-errors');
 const gravatar = require('gravatar');
 const {nanoid} = require('nanoid');
 const {User} = require('../../models');
-const {sendEmail}= require('../../helpers');
+const {sendEmail}= require('../../services');
 
 const {BASE_URL} = process.env;
 
